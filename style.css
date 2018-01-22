@@ -1,0 +1,76 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.container {
+	height: 650px;
+	width: 45%;
+	text-align: center;
+	margin: 5px auto;
+	background-image: linear-gradient(yellow, purple);
+	font-size: 30px;
+
+}
+
+body{
+    background: #c1c1c1;
+    background: -webkit-linear-gradient(#c1c1c1, white, #c1c1c1);
+    background: -o-linear-gradient(#c1c1c1, white, #c1c1c1);
+    background: -moz-linear-gradient(#c1c1c1, white, #c1c1c1);
+    background: linear-gradient(#c1c1c1, white, #c1c1c1);
+}
+
+.box-set {
+  position: absolute;
+  margin: 35px 50px 50px 80px;
+  top: 300;
+  width: 650px;
+  height: 600px;
+  background: #fff;
+  z-index: 1;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+}
+
+.box-1 {
+  position: absolute;
+  width: 800;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+  background: #fff;
+  z-index: 200;
+
+}
+
+.hr-1 {
+	margin: 15px 30px 0px 30px;
+}
+
+.h1-1 {
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 30px;
+	font-weight: 800;
+	color: #4aaaa5;
+}
+
+#full {
+	border-top: 2px solid grey;
+	overflow: auto;
+	width: 100%;
+	height: 650px;
+	color: #000;
+  	background-image: url("assets/readMyMindGame.jpeg");
+    background-size: 50%;
